@@ -1,3 +1,7 @@
+"""
+Provides linking to the panel. Allows Kosciuszko to function.
+"""
+
 from flask import Flask, render_template
 
 app = Flask(__name__, template_folder='pages/', static_folder='assets/')
