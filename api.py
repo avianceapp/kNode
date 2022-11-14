@@ -1,4 +1,8 @@
-from flask import Flask, jsonify, request, render_template
+"""
+API does functions for kNode to function, such as validation of token, node functions, etc.
+"""
+
+from flask import Flask, jsonify, request
 from flask_restful import Resource, Api
 
 app = Flask(__name__)
